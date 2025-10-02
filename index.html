@@ -70,7 +70,7 @@
     <article class="result">
       <h3 id="subTitle" class="subtitle">설명</h3>
       <img id="img" class="rounded-circle mt-5" src="test.jpg" alt="item" />
-      <!-- <h2 id="item" class="text-center mt-5">캐릭터 이름</h2> -->
+      <<h2 id="item" class="text-center mt-5">캐릭터 이름</h2>
       <h4 class="resulttitle">독서 성향</h4>
       <h5 class="resultcontent" id="workexplain" name="독서 성향"></h5>
       <h6 class="resulttitle">추천 도서</h6>
@@ -457,7 +457,7 @@
 const originalMBTI = mbtiImageMap[mbti];
 $("#img").attr("src", `./${originalMBTI}.png`);
 
-          // $("#item").html(result[mbti]["item"]);
+          $("#item").html(result[mbti]["item"]);
           $("#subTitle").html(result[mbti]["subTitle"]);
           $("#workexplain").html(result[mbti]["workexplain"]);
           $("#perexplain").html(result[mbti]["perexplain"]);
